@@ -1,29 +1,20 @@
 OpenSpending = "OpenSpending" in window ? OpenSpending : {};
 
 OpenSpending.LABEL_MAPPING = {
-  "helping-others":"健康福祉",
-  "pre-school":"こども青少年",
-  "education":"教育",
-  "civilian-action":"市民",
-  "order-safety":"消防",
-  "wind":"温暖化対策",
-  "tree":"環境創造",
-  "garbage":"資源循環",
-  "housing":"建築",
-  "street-lights":"都市整備",
-  "farms":"道路",
-  "culture":"文化観光",
-  "dollar":"経済",
-  "harbor":"港湾",
-  "publicaffairs":"総務",
-  "government":"政策",
-  "traffic-watersup":"交通・水道",
-
-  "schools":"子育て・教育",
-  "economy-tourism":"経済・観光",
-  "our-streets":"街づくり",
-  "environment":"環境",
-  "traffic-watersup":"交通・水道"
+  "gikai":"議会費",
+  "soumu":"総務費",
+  "minsei":"民生費",
+  "eisei":"衛生費",
+  "nourin-suisan":"農林水産業費",
+  "shoko":"商工費",
+  "doboku":"土木費",
+  "shobou":"消防費",
+  "kyouiku":"教育費",
+  "saigai-fukyu":"災害復旧費",
+  "kousai":"公債費",
+  "sho-shishutsukin":"諸支出金",
+  "yobi":"予備費"
+  
 };
 
 (function ($) {
@@ -47,7 +38,7 @@ var formatCurrency = function (val, prec, sym, dec, sep) {
     sepAry.unshift(valAry[0].slice(i-3, i))
   }
   if (i !== 0) { sepAry.unshift(valAry[0].slice(0, i)) }
-
+                                                                                                                                    
   str = sym + sepAry.join(sep)
   if (prec > 0) str += dec + valAry[1]
 
@@ -104,7 +95,7 @@ OpenSpending.DailyBread = function (elem) {
       .addClass('active')
 
     self.drawTier(tierId + 1)
-	
+        
     // Hide old tiers
     self.$e.find('.db-tier').each(function () {
       if ($(this).attr('data-db-tier') > tierId + 1) {
@@ -165,7 +156,8 @@ OpenSpending.DailyBread = function (elem) {
     if (!tdAry) { return } // No child tier for selected area.
     var tax = tdAry[0], data = tdAry[1]
 
-    var t = self.tiers[tierId] = self.tiers[tierId] || $("<div class='db-tier' data-db-tier='" + tierId + "'></div>").appendTo(self.$e)
+    var t = self.tiers[tierId] = self.tiers[tierId] || $("<div class='db-tier' data-db-tier='" + tierId + "'></div>").appendTo(self.
+$e)
     var n = data.length
     var w = 100.0 / n
   
@@ -206,7 +198,7 @@ OpenSpending.DailyBread = function (elem) {
     var data = self.data
     var tax = self.taxVal
     var areaId
-
+                                                                                                                                    
     for (var i = 0, tot = tierId; i < tierId; i += 1) {
       areaId = self.areas[i]
       if (data[areaId]) {
@@ -246,7 +238,7 @@ OpenSpending.DailyBread = function (elem) {
           // failed to handle SVG
         }
       });
-    });
+    });                                                                                                                             
   }
 
   this.init()
@@ -286,7 +278,7 @@ OpenSpending.renderDependentTypes = function(db) {
   function handleClick(el) {
     if ($(this).hasClass('active')) {
       // NOP
-    } else {
+    } else {                                                                                                                        
       $('.active', $(this).parent()).removeClass('active');
       $(this).addClass('active');
 
