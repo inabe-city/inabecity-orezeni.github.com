@@ -18,10 +18,10 @@ BubbleTree.Styles.Cofog1 = {
         '07': { icon: 'icons/our-streets.svg', color: '#D33673' },
         '08': { icon: 'icons/fire-brigade.svg', color: '#4E6D00' },
         '09': { icon: 'icons/government.svg', color: '#C75746' },
-        '10': { icon: 'icons/traffic-watersup.svg', color: '#938626' },
+        '10': { icon: 'icons/construction.svg', color: '#938626' },
         '11': { icon: 'icons/traffic-watersup.svg', color: '#938626' },
         '12': { icon: 'icons/traffic-watersup.svg', color: '#938626' },
-        '13': { icon: 'icons/traffic-watersup.svg', color: '#938626' }
+        '13': { icon: 'icons/unknown.svg', color: '#938626' }
 }
 
 BubbleTree.Styles.Cofog2 = {
