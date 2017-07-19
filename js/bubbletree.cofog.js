@@ -9,14 +9,14 @@ BubbleTree.Styles = BubbleTree.Styles || {};
 BubbleTree.Styles.Cofog1 = {
 
         /* yokohama cofog */
-        '01': { icon: 'icons/helping-others.svg', color: '#935B3B' },
+        '01': { icon: 'icons/unemployment.svg', color: '#935B3B' },
         '02': { icon: 'icons/schools.svg', color: '#0AB971' },
         '03': { icon: 'icons/civilian-action.svg', color: '#EC2406' },
         '04': { icon: 'icons/order-safety.svg', color: '#790586' },
         '05': { icon: 'icons/environment.svg', color: '#2A3A03' },
         '06': { icon: 'icons/garbage.svg', color: '#D33673' },
         '07': { icon: 'icons/our-streets.svg', color: '#D33673' },
-        '08': { icon: 'icons/economy-tourism.svg', color: '#4E6D00' },
+        '08': { icon: 'icons/fire-brigade.svg', color: '#4E6D00' },
         '09': { icon: 'icons/government.svg', color: '#C75746' },
         '10': { icon: 'icons/traffic-watersup.svg', color: '#938626' },
         '11': { icon: 'icons/traffic-watersup.svg', color: '#938626' },
