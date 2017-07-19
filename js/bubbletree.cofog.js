@@ -10,7 +10,7 @@ BubbleTree.Styles.Cofog1 = {
 
         /* yokohama cofog */
         '01': { icon: 'icons/unemployment.svg', color: '#935B3B' },
-        '02': { icon: 'icons/schools.svg', color: '#0AB971' },
+        '02': { icon: 'icons/government.svg', color: '#0AB971' },
         '03': { icon: 'icons/civilian-action.svg', color: '#EC2406' },
         '04': { icon: 'icons/order-safety.svg', color: '#790586' },
         '05': { icon: 'icons/environment.svg', color: '#2A3A03' },
@@ -26,7 +26,7 @@ BubbleTree.Styles.Cofog1 = {
 
 BubbleTree.Styles.Cofog2 = {
 
-        '01.1': { icon: 'icons/helping-others.svg'},
+        '01.1': { icon: 'icons/unemployment.svg},
         '02.1': { icon: 'icons/pre-school.svg'},
         '02.2': { icon: 'icons/education.svg'},
         '03.1': { icon: 'icons/civilian-action.svg'},
@@ -40,12 +40,12 @@ BubbleTree.Styles.Cofog2 = {
         '08.1': { icon: 'icons/culture.svg'},
         '08.2': { icon: 'icons/dollar.svg'},                                                                                        
         '08.3': { icon: 'icons/harbor.svg'},
-        '09.1': { icon: 'icons/publicaffairs.svg'},
-        '09.2': { icon: 'icons/government.svg'},
+        '09.1': { icon: 'icons/schools.svg'},
+        '09.2': { icon: 'icons/schools.svg'},
         '10.1': { icon: 'icons/traffic-watersup.svg'},
         '11.1': { icon: 'icons/traffic-watersup.svg'},
         '12.1': { icon: 'icons/traffic-watersup.svg'},
-        '13.1': { icon: 'icons/traffic-watersup.svg'}
+        '13.1': { icon: 'icons/unknown.svg'}
 };
 
 BubbleTree.Styles.Cofog3 = {
