@@ -21,7 +21,7 @@ BubbleTree.Styles.Cofog1 = {
         '10': { icon: 'icons/public-debt.svg', color: '#938626' },
         '11': { icon: 'icons/public-debt.svg', color: '#938626' },
         '12': { icon: 'icons/traffic-watersup.svg', color: '#938626' },
-        '13': { icon: 'icons/unknown.svg', color: '#938626' }
+        '13': { icon: 'icons/money.svg', color: '#938626' }
 }
 
 BubbleTree.Styles.Cofog2 = {
@@ -45,7 +45,7 @@ BubbleTree.Styles.Cofog2 = {
         '10.1': { icon: 'icons/public-debt.svg'},
         '11.1': { icon: 'icons/public-debt.svg'},
         '12.1': { icon: 'icons/traffic-watersup.svg'},
-        '13.1': { icon: 'icons/unknown.svg'}
+        '13.1': { icon: 'icons/money.svg'}
 };
 
 BubbleTree.Styles.Cofog3 = {
