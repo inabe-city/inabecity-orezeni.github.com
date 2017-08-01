@@ -9,11 +9,11 @@ BubbleTree.Styles = BubbleTree.Styles || {};
 BubbleTree.Styles.Cofog1 = {
 
         /* yokohama cofog */
-        '01': { icon: 'icons/unemployment.svg', color: '#935B3B' },
-        '02': { icon: 'icons/government.svg', color: '#0AB971' },
+        '01': { icon: 'icons/courts.svg', color: '#935B3B' },
+        '02': { icon: 'icons/misc-services.svg', color: '#0AB971' },
         '03': { icon: 'icons/civilian-action.svg', color: '#EC2406' },
         '04': { icon: 'icons/environment.svg', color: '#790586' },
-        '05': { icon: 'icons/environment.svg', color: '#2A3A03' },
+        '05': { icon: 'icons/farms.svg', color: '#2A3A03' },
         '06': { icon: 'icons/garbage.svg', color: '#D33673' },
         '07': { icon: 'icons/our-streets.svg', color: '#D33673' },
         '08': { icon: 'icons/fire-brigade.svg', color: '#4E6D00' },
@@ -26,12 +26,12 @@ BubbleTree.Styles.Cofog1 = {
 
 BubbleTree.Styles.Cofog2 = {
 
-        '01.1': { icon: 'icons/unemployment.svg},
-        '02.1': { icon: 'icons/pre-school.svg'},
+        '01.1': { icon: 'icons/courts.svg},
+        '02.1': { icon: 'icons/misc-services.svg'},
         '02.2': { icon: 'icons/education.svg'},
         '03.1': { icon: 'icons/civilian-action.svg'},
         '04.1': { icon: 'icons/environment.svg'},
-        '05.1': { icon: 'icons/wind.svg'},
+        '05.1': { icon: 'icons/farms.svg'},
         '05.2': { icon: 'icons/tree.svg'},
         '06.1': { icon: 'icons/garbage.svg'},
         '07.1': { icon: 'icons/housing.svg'},
